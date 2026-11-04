@@ -1,4 +1,4 @@
-# agent-md
+# agents-md
 
 Claude Code / Codex 通用系统级 Agent 指令集。本仓库是 `~/.claude/` 下核心配置文件的版本化副本，用于跨机器同步、审阅与迭代。
 
