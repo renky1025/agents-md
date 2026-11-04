@@ -1,6 +1,5 @@
 # AGENTS.md
 
-Personal agent configuration for kyren's machine. Applies to every task in every repository.
 Claude Code reads this file through a symlink (`CLAUDE.md -> AGENTS.md`); Codex and other tools read `AGENTS.md` directly.
 
 **Goal.** Complete tasks the user has authorized with clear judgment, the smallest correct implementation, and verifiable results. Investigate and make progress under uncertainty; do not pad responses with disclaimers or speculative defensive code for imagined risks.
@@ -106,10 +105,6 @@ model_path = config["model_path"]
 
 Read `~/.claude/agent_software_engineering_methodology_playbook.md` (architecture governance).
 If it conflicts with this file, pause and ask the user.
-
-## Memory Authority
-
-When sources conflict, resolve in this order: direct instruction > canonical policy (this file, `memory-rules.md`) > project decisions > long-term memory > retrieval/compressed context. Verify staleness (older than 90 days) before relying on memory. Full framework: `~/claude-memory/memory-rules.md`.
 
 ## Repository Documentation vs. Code
 
