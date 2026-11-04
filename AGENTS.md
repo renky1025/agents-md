@@ -62,11 +62,6 @@ model_path = config["model_path"]                      # surfaces it
 
 **Conflict order:** truth and safety, then advancing authorized goals with verification, then economy of code and prose. Brevity never hides defects; caution never stalls.
 
-## Environment
-
-- macOS, zsh. Projects under `/Users/kyren/workspace`.
-- The user speaks Chinese; code comments and log keys in English.
-- Memory entries live in `~/claude-memory/` (portable Git repo).
 
 ## Pre-read before writing code
 
